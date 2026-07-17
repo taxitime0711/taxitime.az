@@ -3,93 +3,110 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>TAXI TIME</title>
 
 <style>
+
 *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Arial,Helvetica,sans-serif;
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,Helvetica,sans-serif;
 }
 
 body{
-    background:#f3f3f3;
+background:#111;
+background-image:linear-gradient(135deg,#111,#222);
 }
 
-.card{
-    max-width:420px;
-    margin:40px auto;
-    background:#fff;
-    border-radius:15px;
-    padding:30px;
-    box-shadow:0 5px 20px rgba(0,0,0,.15);
-    text-align:center;
+.container{
+max-width:430px;
+margin:30px auto;
+background:#fff;
+border-radius:20px;
+overflow:hidden;
+box-shadow:0 15px 40px rgba(0,0,0,.35);
 }
 
-.logo{
-    width:90px;
-    height:90px;
-    border-radius:50%;
-    margin:auto;
-    background:#FFD400;
-    color:#000;
-    font-size:40px;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    font-weight:bold;
+.header{
+background:#FFD400;
+padding:30px;
+text-align:center;
+}
+
+.logo-box img{
+width:220px;
+max-width:100%;
+height:auto;
+border-radius:18px;
+box-shadow:0 10px 20px rgba(0,0,0,.25);
 }
 
 h1{
-    margin-top:20px;
-    color:#111;
+margin-top:20px;
+font-size:34px;
+color:#111;
 }
 
 .slogan{
-    color:#666;
-    margin-top:8px;
-    margin-bottom:25px;
+margin-top:10px;
+font-size:17px;
+color:#333;
 }
 
-.btn{
-    display:block;
-    text-decoration:none;
-    background:#111;
-    color:white;
-    padding:15px;
-    margin:12px 0;
-    border-radius:10px;
-    font-size:17px;
-    transition:.2s;
+.content{
+padding:25px;
 }
 
-.btn:hover{
-    background:#FFD400;
-    color:#000;
+.button{
+display:block;
+text-decoration:none;
+background:#111;
+color:#fff;
+padding:16px;
+margin:14px 0;
+border-radius:12px;
+font-size:17px;
+font-weight:bold;
+text-align:center;
+transition:.25s;
+}
+
+.button:hover{
+background:#FFD400;
+color:#111;
+transform:scale(1.02);
 }
 
 .info{
-    margin-top:25px;
-    color:#555;
-    line-height:28px;
-    font-size:15px;
+margin-top:25px;
+text-align:center;
+line-height:32px;
+font-size:15px;
+color:#444;
 }
 
 .footer{
-    margin-top:20px;
-    font-size:13px;
-    color:#999;
+padding:20px;
+text-align:center;
+font-size:13px;
+color:#999;
 }
+
 </style>
 
 </head>
 
 <body>
 
-<div class="card">
+<div class="container">
 
-<div class="logo">🚖</div>
+<div class="header">
+
+<div class="logo-box">
+<img src="logo.png" alt="TAXI TIME">
+</div>
 
 <h1>TAXI TIME</h1>
 
@@ -97,38 +114,44 @@ h1{
 Qubadan Bakıya rahat səfər et
 </div>
 
-<a class="btn" href="tel:+994507119711">
+</div>
+
+<div class="content">
+
+<a class="button" href="tel:+994507119711">
 📞 Zəng et
 </a>
 
-<a class="btn" href="https://wa.me/994507119711">
+<a class="button" href="https://wa.me/994507119711">
 💬 WhatsApp
 </a>
 
-<a class="btn" href="https://wa.me/c/994507119711">
-📖 Kataloqa bax
+<a class="button" href="https://wa.me/c/994507119711">
+📖 WhatsApp Kataloqu
 </a>
 
-<a class="btn" href="TAXI_TIME_Premium.vcf">
+<a class="button" href="TAXI_TIME_Premium.vcf">
 📇 Kontakta əlavə et
 </a>
 
-<a class="btn" href="https://maps.google.com/?q=Quba şəhəri,Zəfər küçəsi">
+<a class="button" href="https://maps.google.com/?q=Quba şəhəri,Zəfər küçəsi">
 📍 Xəritədə aç
 </a>
 
 <div class="info">
 
-📍 Quba şəhəri,<br>
+📍 Quba şəhəri<br>
 Zəfər küçəsi
 
 <br><br>
 
 📧 taxitime0711@gmail.com
 
-<br><br>
+<br>
 
 📞 +994 50 711 97 11
+
+</div>
 
 </div>
 
