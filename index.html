@@ -4,69 +4,140 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>TAXI TIME</title>
+
 <style>
-body{
+*{
     margin:0;
-    background:#f5f5f5;
-    font-family:Arial,sans-serif;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    min-height:100vh;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,Helvetica,sans-serif;
 }
+
+body{
+    background:#f3f3f3;
+}
+
 .card{
-    width:340px;
+    max-width:420px;
+    margin:40px auto;
     background:#fff;
     border-radius:15px;
-    padding:25px;
+    padding:30px;
     box-shadow:0 5px 20px rgba(0,0,0,.15);
     text-align:center;
 }
+
+.logo{
+    width:90px;
+    height:90px;
+    border-radius:50%;
+    margin:auto;
+    background:#FFD400;
+    color:#000;
+    font-size:40px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-weight:bold;
+}
+
 h1{
-    margin:0;
-    color:#f7b500;
+    margin-top:20px;
+    color:#111;
 }
-p{
-    color:#555;
+
+.slogan{
+    color:#666;
+    margin-top:8px;
+    margin-bottom:25px;
 }
+
 .btn{
     display:block;
     text-decoration:none;
-    color:#fff;
     background:#111;
-    padding:14px;
+    color:white;
+    padding:15px;
     margin:12px 0;
-    border-radius:8px;
-    font-weight:bold;
+    border-radius:10px;
+    font-size:17px;
+    transition:.2s;
 }
+
+.btn:hover{
+    background:#FFD400;
+    color:#000;
+}
+
 .info{
+    margin-top:25px;
+    color:#555;
+    line-height:28px;
+    font-size:15px;
+}
+
+.footer{
     margin-top:20px;
-    font-size:14px;
-    color:#666;
+    font-size:13px;
+    color:#999;
 }
 </style>
+
 </head>
+
 <body>
 
 <div class="card">
-    <h1>🚖 TAXI TIME</h1>
 
-    <p><b>Qubadan Bakıya rahat səfər et</b></p>
+<div class="logo">🚖</div>
 
-    <a class="btn" href="tel:+994507119711">📞 Zəng et</a>
+<h1>TAXI TIME</h1>
 
-    <a class="btn" href="https://wa.me/994507119711">💬 WhatsApp</a>
+<div class="slogan">
+Qubadan Bakıya rahat səfər et
+</div>
 
-    <a class="btn" href="https://wa.me/c/994507119711">📖 Kataloq</a>
+<a class="btn" href="tel:+994507119711">
+📞 Zəng et
+</a>
 
-    <a class="btn" href="TAXI_TIME_Premium.vcf">📇 Kontakta əlavə et</a>
+<a class="btn" href="https://wa.me/994507119711">
+💬 WhatsApp
+</a>
 
-    <div class="info">
-        📍 Quba şəhəri,<br>
-        223-cü Atıcı Diviziya küçəsi
-        <br><br>
-        ✉️ taxitime0711@gmail.com
-    </div>
+<a class="btn" href="https://wa.me/c/994507119711">
+📖 Kataloqa bax
+</a>
+
+<a class="btn" href="TAXI_TIME_Premium.vcf">
+📇 Kontakta əlavə et
+</a>
+
+<a class="btn" href="https://maps.google.com/?q=Quba şəhəri,223-cü Atıcı Diviziya küçəsi">
+📍 Xəritədə aç
+</a>
+
+<div class="info">
+
+📍 Quba şəhəri,<br>
+223-cü Atıcı Diviziya küçəsi
+
+<br><br>
+
+📧 taxitime0711@gmail.com
+
+<br><br>
+
+📞 +994 50 711 97 11
+
+</div>
+
+<div class="footer">
+
+© 2026 TAXI TIME
+
+</div>
+
 </div>
 
 </body>
